@@ -3,8 +3,16 @@ import { projects } from '../data/data.js';
 
 //icons
 import { IoLogoJavascript } from 'react-icons/io5';
-import { FaAngular, FaReact, FaHtml5, FaCss3, FaNodeJs } from 'react-icons/fa';
+import {
+  FaAngular,
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaNodeJs,
+  FaCode,
+} from 'react-icons/fa';
 import { SiTypescript } from 'react-icons/si';
+import { RiLiveLine } from 'react-icons/ri';
 
 //style
 import '../styles/Projects.css';
@@ -54,8 +62,16 @@ export default function Projects() {
               </div>
             </div>
             <div className="projects-buttons-container">
-              <button>Code</button>
-              <button>Live</button>
+              <button>
+                <span className="btn">
+                  Code <FaCode size={20} />
+                </span>
+              </button>
+              <button>
+                <span className="btn">
+                  Live <RiLiveLine size={20} />
+                </span>
+              </button>
             </div>
           </div>
         );
