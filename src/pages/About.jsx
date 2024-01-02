@@ -1,8 +1,11 @@
-import 
+import Header from '../components/Header';
+
+//style
+import '../styles/Header.css';
 export default function About() {
   return (
     <div>
-      <p>About page</p>
+      <Header />
     </div>
   );
 }

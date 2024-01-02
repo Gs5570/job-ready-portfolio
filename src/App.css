@@ -4,6 +4,6 @@
   gap: 10px;
   /* overflow: hidden; */
   padding: 5px;
-  height: 100vh;
+  /* max-height: 100vh; */
   line-height: 1.6;
 }
