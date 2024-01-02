@@ -5,7 +5,7 @@ import { Routes, Route, Link, NavLink } from 'react-router-dom';
 //pages
 import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Project';
+import Projects from './pages/Projects';
 
 //style
 import './App.css';
