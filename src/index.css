@@ -52,7 +52,7 @@ body {
   }
 
   .intro-container img {
-    width: 95%;
+    width: 100%;
   }
   .social-container {
     display: flex;
@@ -76,6 +76,10 @@ body {
     border-radius: 5px;
   }
 
+  .project-details-container {
+    padding: 5px;
+    margin: 0;
+  }
   .project-details-container p {
     text-align: center;
   }
@@ -137,7 +141,7 @@ body {
     text-align: center;
   }
   .intro-container img {
-    width: 95%;
+    width: 100%;
   }
 
   .social-container {
@@ -161,6 +165,33 @@ body {
     cursor: pointer;
     background-color: rgb(255, 131, 71);
     border-radius: 5px;
+  }
+
+  .project-details-container {
+    padding: 5px;
+    margin: 0;
+  }
+  .project-details-container p {
+    text-align: center;
+  }
+  .project-enclosure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-details-container p,
+  h2 {
+    text-align: center;
+  }
+
+  .tech-icons-container,
+  .projects-buttons-container {
+    justify-content: center;
+  }
+
+  .projects-buttons-container {
+    margin: 0;
   }
 }
 
@@ -197,7 +228,7 @@ body {
     text-align: center;
   }
   .intro-container img {
-    width: 95%;
+    width: 100%;
   }
   .social-container {
     display: flex;

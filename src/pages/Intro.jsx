@@ -14,7 +14,7 @@ export default function Intro() {
     <div className="home-container">
       <h1>Welcome </h1>
       <div className="intro-container">
-        <div>
+        <div className="intro-image-container">
           <img src={Flag} alt="dr cong flag" />
         </div>
         <div className="overview">
