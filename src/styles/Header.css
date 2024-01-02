@@ -1,0 +1,18 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100%; */
+}
+
+.logo-text {
+  font-family: 'Great Vibes', 'Corinthia', cursive;
+  font-size: 2em;
+  /* font-weight: bold; */
+}
+
+.logo-text p {
+  margin: 0;
+  padding: 0;
+}

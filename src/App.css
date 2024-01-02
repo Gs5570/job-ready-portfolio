@@ -1,0 +1,9 @@
+.app-container {
+  display: grid;
+  grid-template-rows: 10.5% auto 5%;
+  gap: 10px;
+  /* overflow: hidden; */
+  padding: 5px;
+  height: 100vh;
+  line-height: 1.6;
+}

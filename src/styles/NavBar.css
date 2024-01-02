@@ -1,0 +1,21 @@
+.nav-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-items-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.nav-items-container li:hover {
+  cursor: pointer;
+  background-color: rgb(255, 131, 71);
+  border-radius: 5px;
+}

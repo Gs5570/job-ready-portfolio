@@ -1,0 +1,72 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.project-sample-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  border-radius: 20px;
+  /* border: solid 2px; */
+  /* height: 100vh; */
+  /* height: 100vh; */
+  /* height: 70vh; */
+
+  margin: auto;
+  width: 80%;
+}
+
+.project-enclosure {
+  /* margin: 10px; */
+  display: grid;
+  grid-template-columns: 20% auto;
+  gap: 30px;
+  /* height: 50%; */
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.image-container {
+  /* height: 300px; */
+  margin: 10px;
+}
+.projects-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* width: 80%; */
+  margin-right: 30px;
+}
+.projects-buttons-container button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.projects-buttons-container button:hover {
+  cursor: pointer;
+  border: rgba(255, 147, 95) solid;
+  color: aliceblue;
+  background-color: black;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-weight: bold;
+}
+
+.project-details-container {
+  margin-right: 15px;
+}
+
+.tech-icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
