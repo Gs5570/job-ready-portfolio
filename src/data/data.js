@@ -7,6 +7,8 @@ export const projects = [
     id: 1,
     icons: ['FaAngular', 'SiTypescript', 'FaHtml5', 'FaCss3'],
     size: 40,
+    live: 'https://angular-estore.netlify.app',
+    code: 'https://github.com/Gs5570/e-store',
   },
   {
     Name: 'Src-ML',
@@ -16,6 +18,8 @@ export const projects = [
     id: 2,
     icons: ['FaReact', 'FaNodeJs', 'FaHtml5', 'FaCss3', 'IoLogoJavascript'],
     size: 40,
+    live: 'https://github.com/Gs5570/srcML_web-application',
+    code: 'https://github.com/Gs5570/srcML_web-application',
   },
   {
     Name: 'Tenzy ',
@@ -25,6 +29,8 @@ export const projects = [
     id: 3,
     icons: ['FaReact', 'FaHtml5', 'FaCss3', 'IoLogoJavascript'],
     size: 40,
+    live: 'https://tenzy-game-gs.netlify.app',
+    code: 'https://github.com/Gs5570/Tenzies_Game',
   },
   {
     Name: 'Digital card ',
@@ -34,6 +40,8 @@ export const projects = [
     id: 4,
     icons: ['FaReact', 'FaHtml5', 'FaCss3', 'IoLogoJavascript'],
     size: 40,
+    live: 'https://digital-business-card-react-practice.netlify.app',
+    code: 'https://github.com/Gs5570/Digital-Business-Card',
   },
   {
     Name: 'Trivia Quiz ',
@@ -43,5 +51,7 @@ export const projects = [
     id: 5,
     icons: ['FaReact', 'FaHtml5', 'FaCss3', 'IoLogoJavascript'],
     size: 40,
+    live: 'https://gs5570-quizzical-game.netlify.app',
+    code: 'https://github.com/Gs5570/quizzical-game',
   },
 ];

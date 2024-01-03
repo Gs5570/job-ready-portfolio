@@ -62,12 +62,20 @@ export default function Projects() {
               </div>
             </div>
             <div className="projects-buttons-container">
-              <button>
+              <button
+                onClick={() => {
+                  window.location.href = project.code;
+                }}
+              >
                 <span className="btn">
                   Code <FaCode size={20} />
                 </span>
               </button>
-              <button>
+              <button
+                onClick={() => {
+                  window.location.href = project.live;
+                }}
+              >
                 <span className="btn">
                   Live <RiLiveLine size={20} />
                 </span>

@@ -1,12 +1,12 @@
 .app-container {
   display: grid;
-  grid-template-rows: 10.5% auto-fit 5%;
-  gap: 10px;
+  grid-template-rows: 10.5% auto 5%;
+  gap: 30px;
   /* overflow: hidden; */
   padding: 5px;
   /* max-height: 100vh; */
   line-height: 1.6;
-  height: 100%;
+  height: 100vh;
 }
 /* a.active {
   text-decoration: none;

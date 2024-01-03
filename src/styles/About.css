@@ -1,0 +1,114 @@
+.about-container {
+  /* display: flex;
+  flex-direction: column; */
+  font-family: 'Libre Baskerville', serif;
+  /* height: 100vh; */
+}
+.bio-details-container {
+  display: grid;
+  grid-template-columns: 40% auto;
+  width: 70%;
+  margin: auto;
+  gap: 30px;
+}
+
+.left-quote,
+.right-quote {
+  max-height: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-quote span,
+.right-quote span {
+  font-family: 'Great Vibes', 'Corinthia', cursive;
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.left-quote {
+  justify-content: flex-start;
+}
+.right-quote {
+  justify-content: flex-end;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgrey;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 35px;
+}
+.quote-text-container p {
+  font-size: 2em;
+  text-align: center;
+  animation: quoteAnim 5s ease 0s 1 normal forwards;
+}
+/* .quote-text-container span {
+  text-align: center;
+} */
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume-btn button {
+  padding: 20px;
+  background-color: rgba(255, 147, 95);
+  color: aliceblue;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+.resume-btn button:hover {
+  cursor: pointer;
+}
+
+@keyframes quoteAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateY(-65px);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateY(-28px);
+  }
+
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateY(-8px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+}

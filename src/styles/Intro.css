@@ -22,6 +22,19 @@
   border-radius: 75px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  animation: myAnim 2s ease 0s 1 normal backwards;
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: rotate(-540deg) scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
 }
 
 .overview {
