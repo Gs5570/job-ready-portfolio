@@ -17,7 +17,7 @@ body {
 @media screen and (max-width: 600px) {
   .app-container {
     display: grid;
-    grid-template-rows: 10% auto 5%;
+    grid-template-rows: 17% auto 5%;
     gap: 10px;
     /* overflow: hidden; */
     padding: 5px;
@@ -108,7 +108,7 @@ body {
 @media screen and (max-width: 768px) {
   .app-container {
     display: grid;
-    grid-template-rows: 10% auto 5%;
+    grid-template-rows: 17% auto 5%;
     gap: 10px;
     /* overflow: hidden; */
     padding: 5px;
@@ -204,7 +204,7 @@ body {
 @media screen and (max-width: 992px) {
   .app-container {
     display: grid;
-    grid-template-rows: 10% auto 5%;
+    grid-template-rows: 17% auto 5%;
     gap: 10px;
     /* overflow: hidden; */
     padding: 5px;
