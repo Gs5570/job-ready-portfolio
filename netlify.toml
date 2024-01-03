@@ -19,3 +19,12 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://ntl.fyi/file-based-build-config
+
+[[headers]]
+  for = "/*.js"
+    [headers.values]
+      Cache-Control = "no-store"
+[[headers]]
+  for = "/*.css"
+    [headers.values]
+      Cache-Control = "no-store"
