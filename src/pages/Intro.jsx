@@ -21,7 +21,7 @@ export default function Intro({ downloadResume }) {
           <h2>Software Engineer</h2>
           <p>
             Hi im Galekwan Sango. A passionate web developer with a background
-            in Cyber Security. My expertise stem from developing, implementing,
+            in Cyber Security. My expertise stems from developing, implementing,
             testing, and deploying web applications.
           </p>
           <div className="social-container">
