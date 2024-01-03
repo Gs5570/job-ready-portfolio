@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export default function Home() {
-  const resumeUrl = 'http://localhost:5173/se-resume.docx';
+  const resumeUrl = 'https://galekwan-portfolio.netlify.app/se-resume.docx';
 
   async function downloadResumeWithBlob() {
     const fileName = resumeUrl.split('/').pop();
