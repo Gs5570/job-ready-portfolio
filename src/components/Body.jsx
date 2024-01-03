@@ -3,11 +3,11 @@ import Projects from '../pages/Project';
 
 import '../styles/Body.css';
 
-export default function Body() {
+export default function Body({ downloadResume }) {
   return (
     <div className="body-container">
-      <Intro />
-      <Projects />
+      <Intro downloadResume={downloadResume} />
+      <Projects downloadResume={downloadResume} />
     </div>
   );
 }

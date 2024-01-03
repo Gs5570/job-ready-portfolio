@@ -6,6 +6,34 @@ import '../styles/Header.css';
 import '../styles/About.css';
 import '../App.css';
 export default function About() {
+  const resumeUrl = 'http://localhost:5173/se-resume.docx';
+
+  async function downloadResumeWithBlob() {
+    const fileName = resumeUrl.split('/').pop();
+
+    try {
+      const response = await fetch(resumeUrl);
+      const fileData = await response.blob();
+
+      const blob = new Blob([fileData], {
+        type:
+          response.headers.get('content-type') || 'application/octet-stream',
+      });
+
+      const url = URL.createObjectURL(blob);
+
+      const aTag = document.createElement('a');
+      aTag.href = url;
+      aTag.setAttribute('download', fileName);
+      document.body.appendChild(aTag);
+      aTag.click();
+      aTag.remove();
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Error downloading file:', error);
+    }
+  }
+
   return (
     <>
       <Header />
@@ -32,22 +60,22 @@ export default function About() {
           <div className="about-bio-container">
             <div className="head-container">
               <p>About Me</p>
-              <h2>I build Web Application</h2>
+              <h2>I build Web Applications</h2>
             </div>
             <div className="content-container">
               <p>
                 Hello, I am Galekwan, I am a dedicated and enthusiastic
                 developer with a strong passion for coding, problem solving and
-                Cyber Security. My area of focus revolve around Full stack
-                development, Software development principles, and Information
-                Security. However, I am flexible to take on different, like
-                Bruce Lee: once said:{' '}
+                Cyber Security. My area of focus revolves around Full stack
+                development, Software development engineering principles, and
+                Information Security. However, I am flexible to take on
+                different, like Bruce Lee: once said:{' '}
                 <pan>
                   <em>Be like water </em>
                 </pan>
                 I can do front-end, back-end or all together. I am eager to
                 contribute to a dynamic team and leverage technical skills to
-                drive innovative solution.
+                drive innovative solutions.
               </p>
 
               <p>
@@ -70,16 +98,21 @@ export default function About() {
               <div className="education-employment-container">
                 <div className="education-container">
                   <h3>Education</h3>
-                  <p>Rochester Institute of Technology</p>
+                  <p>
+                    Rochester Institute of Technology / MS in Software
+                    Engineering
+                  </p>
                 </div>
                 <div className="employment-container">
-                  <h3>Employment</h3>
-                  <p>Available</p>
+                  <h3>Employment Status</h3>
+                  <p>Open and Ready to go</p>
                 </div>
               </div>
             </div>
             <div className="resume-btn">
-              <button>Download resume</button>
+              <button onClick={() => downloadResumeWithBlob()}>
+                Download resume
+              </button>
             </div>
           </div>
         </div>

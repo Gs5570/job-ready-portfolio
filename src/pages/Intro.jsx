@@ -9,7 +9,7 @@ import '../styles/Intro.css';
 
 import Flag from '../assets/dr congo flag.jpeg';
 
-export default function Intro() {
+export default function Intro({ downloadResume }) {
   return (
     <div className="home-container">
       <h1>Welcome </h1>
@@ -21,20 +21,39 @@ export default function Intro() {
           <h2>Software Engineer</h2>
           <p>
             Hi im Galekwan Sango. A passionate web developer with a background
-            Cyber Security. My expertise stem from developing, implementing,
+            in Cyber Security. My expertise stem from developing, implementing,
             testing, and deploying web applications.
           </p>
           <div className="social-container">
             <div className="social-item-container">
-              <FaLinkedin size={40} className="social-item" />
+              <FaLinkedin
+                size={40}
+                className="social-item"
+                onClick={() => {
+                  window.location.href =
+                    'https://www.linkedin.com/in/galekwansango/';
+                }}
+              />
               <p>LinkedIn</p>
             </div>
             <div className="social-item-container">
-              <IoLogoGithub size={40} className="social-item" />
+              <IoLogoGithub
+                size={40}
+                className="social-item"
+                onClick={() => {
+                  window.location.href = 'https://github.com/Gs5570';
+                }}
+              />
               <p>Github</p>
             </div>
             <div className="social-item-container">
-              <LiaFileDownloadSolid size={40} className="social-item" />
+              <LiaFileDownloadSolid
+                size={40}
+                className="social-item"
+                onClick={() => {
+                  downloadResume();
+                }}
+              />
               <p>Resume</p>
             </div>
           </div>

@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 30px;
   font-family: 'Libre Baskerville', serif;
-  animation: projectContainer 2s ease 1s 1 normal backwards;
+  animation: projectContainer 1.6s ease 1s 1 normal backwards;
 }
 @keyframes projectContainer {
   0% {

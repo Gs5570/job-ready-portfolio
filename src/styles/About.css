@@ -47,27 +47,6 @@
   text-align: center;
   animation: quoteAnim 5s ease 0s 1 normal forwards;
 }
-/* .quote-text-container span {
-  text-align: center;
-} */
-.info-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.resume-btn button {
-  padding: 20px;
-  background-color: rgba(255, 147, 95);
-  color: aliceblue;
-  font-size: 1em;
-  font-weight: 700;
-  border-radius: 60px;
-}
-
-.resume-btn button:hover {
-  cursor: pointer;
-}
 
 @keyframes quoteAnim {
   0% {
@@ -110,5 +89,50 @@
   100% {
     animation-timing-function: ease-out;
     transform: translateY(0);
+  }
+}
+
+/* .quote-text-container span {
+  text-align: center;
+} */
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume-btn button {
+  padding: 20px;
+  background-color: rgba(255, 147, 95);
+  color: aliceblue;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+.resume-btn button:hover {
+  cursor: pointer;
+  animation: btn-shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes btn-shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
   }
 }

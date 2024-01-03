@@ -22,10 +22,10 @@
   border-radius: 75px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  animation: myAnim 2s ease 0s 1 normal backwards;
+  animation: flagAnim 2s ease 0s 1 normal backwards;
 }
 
-@keyframes myAnim {
+@keyframes flagAnim {
   0% {
     opacity: 0;
     transform: rotate(-540deg) scale(0);
