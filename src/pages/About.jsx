@@ -118,10 +118,45 @@ export default function About() {
         </div>
         <div className="skills-container">
           <div className="web-skills-container">
-            <p>web</p>
+            <h3>Web development skills:</h3>
+            <ul>
+              <li>
+                Language and Library:
+                <ul>
+                  <li>React JS</li>
+                  <li>JavaScript</li>
+                  <li>Java</li>
+                  <li>Html</li>
+                  <li>Css</li>
+                </ul>
+              </li>
+              <li>
+                {' '}
+                Frameworks:
+                <ul>
+                  <li>Express JS</li>
+                </ul>
+              </li>
+              <li>
+                Version Control:
+                <ul>
+                  <li>Git</li>
+                </ul>
+              </li>
+              <li>Agile / Scrum</li>
+            </ul>
           </div>
           <div className="cyber-skills-container">
-            <p>cyber</p>
+            <h3>Cyber Security Skills:</h3>
+            <ul>
+              <li>Threat Detection</li>
+              <li>Threat Analysis</li>
+              <li>Threat Hunting</li>
+              <li>Incident Response</li>
+              <li>Network Security</li>
+              <li>Vulnerability Assessment</li>
+              <li>Linux</li>
+            </ul>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 .about-container {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   font-family: 'Libre Baskerville', serif;
   /* height: 100vh; */
 }
@@ -135,4 +136,24 @@
   60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cyber-skills-container,
+.web-skills-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 380px;
+  /* border: solid black; */
+}
+
+.cyber-skills-container h3,
+.web-skills-container h3 {
+  text-align: center;
 }

@@ -198,6 +198,19 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .cyber-skills-container,
+  .web-skills-container {
+    align-items: center;
+  }
 }
 
 /* For Large Laptops */
