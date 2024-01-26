@@ -1,0 +1,38 @@
+.contact-body {
+  height: 100vh;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+  gap: 15px;
+}
+.contact-form button {
+  padding: 10px;
+  color: aliceblue;
+  font-weight: bolder;
+  background-color: rgb(255, 131, 71);
+  border-radius: 20px;
+  font-size: large;
+}
+
+.contact-form button:hover {
+  cursor: pointer;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+}
+.label-container input {
+  max-width: 250px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.label-container textarea {
+  height: 300px;
+}
