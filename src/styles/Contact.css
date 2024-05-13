@@ -2,6 +2,10 @@
   height: 100vh;
   font-family: 'Libre Baskerville', serif;
 }
+.form-container {
+  margin: auto;
+  width: 100%;
+}
 
 .contact-form {
   display: flex;

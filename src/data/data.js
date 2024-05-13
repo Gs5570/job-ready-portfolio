@@ -18,8 +18,8 @@ export const projects = [
     id: 2,
     icons: ['FaReact', 'FaNodeJs', 'FaHtml5', 'FaCss3', 'IoLogoJavascript'],
     size: 40,
-    live: 'https://github.com/Gs5570/srcML_web-application',
-    code: 'https://github.com/Gs5570/srcML_web-application',
+    live: 'https://github.com/Gs5570/srcml_web_application.git',
+    code: 'https://github.com/Gs5570/srcml_web_application.git',
   },
   {
     Name: 'Tenzy ',

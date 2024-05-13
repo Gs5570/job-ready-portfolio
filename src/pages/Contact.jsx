@@ -36,7 +36,7 @@ export default function Contact() {
     notify();
   };
 
-  const notify = () => toast('Message Sent I will get back to you shortly!');
+  const notify = () => toast('Message Sent we will get back to you shortly!');
 
   return (
     <div>
